@@ -94,7 +94,8 @@ Video: [Azure VNet Explained - YouTube](https://www.youtube.com/watch?v=6MaGYkDp
   ### 🧩 VNet Has These Parts: 
   1. **Subnets** = rooms inside the house → Divide your network into smaller groups.
   2. **NSG (Network Security Group)** = door rules → Decide **who can enter** or **leave** each room.
-  3. **Peering** = bridge to another house → Connect your VNet to another VNet.
-  4. **Route Table** = GPS map → Tells data where to go. 
-5. **Gateway** = main gate to outside world → Connect your VNet to your **home or office** internet securely.
+  3. **ASG (Application Security Group)** = group tags → Tag rooms with roles and apply door rules to the whole group.
+  4. **Peering** = bridge to another house → Connect your VNet to another VNet.
+  5. **Route Table** = GPS map → Tells data where to go. 
+ 6. **Gateway** = main gate to outside world → Connect your VNet to your **home or office** internet securely.
 
